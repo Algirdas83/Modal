@@ -3,7 +3,7 @@ const modal = document.querySelector('.modal');
 const overlay = document.querySelector('.overlay');
 const btnCloseModal = document.querySelector('.close-modal');
 const btnShowModal = document.querySelectorAll('.show-modal');
-///Mano variajantas 
+///Mano varijantas 
 // const closeModal = element => {
 //   element.addEventListener('click', function () {
 //     modal.classList.add('hidden');
@@ -20,7 +20,7 @@ for (let i = 0; i < btnShowModal.length; i++) {
     // closeModal(btnCloseModal);
     // closeModal(overlay);
     ///////////////////////////
-    ///Jono variajntas
+    ///Jono varijntas
     const closeModel2 = function () {
       modal.classList.add('hidden');
       overlay.classList.add('hidden');
